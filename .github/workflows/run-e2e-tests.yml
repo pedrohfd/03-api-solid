@@ -13,7 +13,7 @@ jobs:
       ports:
         - 5432:5432
       env:
-        POSTGRESQL_USER: docker
+        POSTGRESQL_USERNAME: docker
         POSTGRESQL_PASSWORD: docker
         POSTGRESQL_DATABASE: apisolid
 
